@@ -1,0 +1,19 @@
+{
+  "name": "hello-nightwatch",
+  "version": "1.0.0",
+  "description": "Hello Nightwatch.js",
+  "main": "index.js",
+  "scripts": {
+    "install:selenium": "curl 'http://selenium-release.storage.googleapis.com/3.3/selenium-server-standalone-3.3.1.jar' -o lib/selenium-server-standalone-3.3.1.jar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.o-in.dwango.co.jp/aoki/hello-nightwatch.git"
+  },
+  "author": "Yoshiki Aoki",
+  "license": "MIT",
+  "dependencies": {
+    "nightwatch": "0.9.14"
+  }
+}
