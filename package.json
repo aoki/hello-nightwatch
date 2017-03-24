@@ -4,8 +4,8 @@
   "description": "Hello Nightwatch.js",
   "main": "index.js",
   "scripts": {
-    "install:selenium": "curl 'http://selenium-release.storage.googleapis.com/3.3/selenium-server-standalone-3.3.1.jar' -o lib/selenium-server-standalone-3.3.1.jar",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nightwatch tests/*",
+    "chrome": "nightwatch --env chrome tests/*"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,6 @@
   "author": "Yoshiki Aoki",
   "license": "MIT",
   "dependencies": {
-    "nightwatch": "0.9.14"
+    "nightwatch": "0.9.13"
   }
 }
