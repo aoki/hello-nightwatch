@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.o-in.dwango.co.jp/aoki/hello-nightwatch.git"
+    "url": "ssh://git@github.com/ringohub/hello-nightwatch.git"
   },
   "author": "Yoshiki Aoki",
   "license": "MIT",

@@ -24,8 +24,9 @@ GECKO_DRIVER_URL			:= 'https://github.com/mozilla/geckodriver/releases/download/
 bin/geckodriver:
 	curl -L $(GECKO_DRIVER_URL) \
 		-o bin/geckodriver-v$(GECKO_DRIVER_VERSION)-macos.tar.gz
-	tar xf bin/geckodriver-v$(GECKO_DRIVER_VERSION)-macos.tar.gz -C lib
+	tar xf bin/geckodriver-v$(GECKO_DRIVER_VERSION)-macos.tar.gz -C bin
 	rm bin/geckodriver-v$(GECKO_DRIVER_VERSION)-macos.tar.gz
+
 
 CHROME_DRIVER_VERSION	:= 2.28
 CHROME_DRIVER_URL			:= 'https://chromedriver.storage.googleapis.com/$(CHROME_DRIVER_VERSION)/chromedriver_mac64.zip'
