@@ -4,7 +4,7 @@
   "description": "Hello Nightwatch.js",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch tests/*",
+    "test": "nightwatch tests/* --verbose",
     "chrome": "nightwatch --env chrome tests/*"
   },
   "repository": {

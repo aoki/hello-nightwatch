@@ -7,8 +7,8 @@ module.exports = (function(settings) {
       "log_path" : "",
       "port" : 4444,
       "cli_args" : {
-        "webdriver.gecko.driver" : "./bin/geckodriver",
-        "webdriver.chrome.driver" : "./bin/chromedriver"
+        "webdriver.gecko.driver" : "/usr/local/bin/geckodriver",
+        "webdriver.chrome.driver" : "/usr/local/bin/chromedriver"
       }
     },
 
@@ -30,5 +30,5 @@ module.exports = (function(settings) {
     }
   };
   return settings;
-
-})(require('./nightwatch.json'));
+})({});
+// })(require('./nightwatch.json'));
